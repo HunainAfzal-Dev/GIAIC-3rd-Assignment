@@ -12,16 +12,7 @@ export default function Navbar() {
 
         <ul className="hidden md:flex justify-end space-x-10 mr-6 text-white">
           <li className="hover:scale-150 transition duration-700">
-            <Link href="/home">HOME</Link>
-          </li>
-          <li className="hover:scale-150 transition duration-700">
-            <Link href="/about">ABOUT</Link>
-          </li>
-          <li className="hover:scale-150 transition duration-700">
-            <Link href="/contact">CONTACT</Link>
-          </li>
-          <li className="hover:scale-150 transition duration-700">
-            <Link href="/footer">FOOTER</Link>
+            <Link href="/dynamic-student-card">Student Cards</Link>
           </li>
         </ul>
         <div>

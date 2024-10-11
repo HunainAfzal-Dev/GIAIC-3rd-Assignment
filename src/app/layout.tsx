@@ -27,11 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900
-        `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-t from-orange-400 via-pink-500 to-red-500`}
       >
         <Navbar/>
-        <div className="border-2 h-[80vh] mx-16 mt-5 rounded-md">
+        <div className="border-2 h-[85vh] mx-16 mt-5 rounded-md">
         {children}
         </div>
       </body>
